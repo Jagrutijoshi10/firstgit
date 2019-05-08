@@ -1,0 +1,95 @@
+h1,h2{
+	text-align:center;
+	font-family:"Times New Roman", Times, serif;
+}
+p{
+	font-size:30px;
+	font-family:"Times New Roman", Times, serif;
+}
+	
+.changefont{
+	font-size:30px;
+	font-family:"Times New Roman", Times, serif;
+}
+body{
+	margin:50px;
+}
+
+h3{
+	text-align:center;
+}
+nav a{
+	text-decoration:none;
+	float:left;
+	display:block;
+	padding:10px 20px;
+}
+nav a:hover{
+	background-color:#00FFFF;
+	color: black;
+}
+nav a.active{
+	background-color:#00FFFF;
+	color: black;
+}
+	
+nav ul{
+	text-align:center;
+	list-style:none;
+	background-color:#0000FF;
+	width:100%;
+	overflow:hidden;
+}
+nav li{
+	color:black;
+}
+.image{
+	background-image:url("school-image.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+}
+.image2{
+	background-image:url("school-image2.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.image3{
+	background-image:url("school-image3.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.image4{
+	background-image:url("school-image4.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.changecolor{
+	background-color:#00FFFF;
+}
+span{
+	font-size:30px;
+}
+.image5{
+	background-image:url("school-image5.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.box nav a{
+	padding:20px 70px;
+	border:5px solid black;
+}
+.back-color{
+	background-color:FFC0CB;
+	margin-right:50%;
+}
+.fix-color{
+	background-color:grey;
+	padding:30px 20px;
+	margin-left:400px;
+	margin-right:400px;
+}
+.fix-center{
+	text-align:center;
+}
