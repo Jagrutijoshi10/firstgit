@@ -1,0 +1,182 @@
+<html>
+   <head>
+     <title>one page</title>
+	 <link rel="stylesheet" href="style-one.css"/>
+	 <link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.theme.css"/>
+	 <link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.theme.min.css"/>
+	 <link rel="stylesheet" href="jonthornton-jquery-timepicker-f3c122d/jquery.timepicker.css"/>
+
+	 <script src="jquery-3.4.1.min.js"></script>
+	 <script src="jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+	 <script src="jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+	 	 <script src="jonthornton-jquery-timepicker-f3c122d/jquery.timepicker.js"></script>
+	 <script type="text/javascript" src="one-page.js"></script>
+	</head>
+	    <body>
+		<header>
+		  <h1 text-align="center">ABC SCHOOL</h1>
+		  </header>
+		  <nav>
+		     <ul>
+		         <a href='#about-us'>ABOUT US</a>
+                 <a href='#courses-offered'>COURSES OFFERED</a>
+                 <a href='#admission-form'>ADMISSION FORM</a>
+                 <a href='#achievements'>ACHIEVEMENTS</a>
+				 <a href='#draggable'>DRAGGABLE</a>
+			 </ul>	 
+           </nav><br/><br/>				 
+		  <div class="fix">
+                <div id="about-us" class="image2 box" class="changefont" class="active">
+		              <h1>ABOUT US</h1>
+                      <p >
+			              ABC Public Schools ardently believe that Education is a process and not a product.
+			             Swami Chinmayananda once said : 'Children are not vessels to be filled but lamps to be lit'. 
+			              One of the mission statements of the school is that a rigorous academic program would be ensured, coupled with a rich repertoire of Co-curricular and Extra-curricular activities, allowing latent talents to bloom in a nurturing, non-threatening environment. 
+			             Here, 'All the students will experience Success which is essential in building Self-esteem'. 
+			             The objective of the school is to leave the legacy of overall development in the students, endow them with a much-needed holistic education and give them a competitive edge over their counterparts elsewhere, thus molding them into worthy citizens of a global village. . .
+			             <br/><br/>
+			    
+                         <u>SCHOOL SYSTEM & POLICY
+                         OPEN DAY MEETINGS:</u>
+                          The School Management deems it necessary for all the parents to attend all the open day meetings. Parents can send their views and offer suggestions to the Principal,atleast two days prior to the meeting and appropriate response/reply will be made during the meetings.
+			              <br/><br/>
+			        
+                          <u>Evaluation Rules</u>
+                          Formative Assessment & summative Assessment
+                          Grade System is followed for the Assessment of the students from LKG to Std IX
+                          <br/><br/>
+			            
+                          <u>Formative Assessment – Skills.</u>
+                          <u>English and Regional Language</u>
+                          This comprises of Reading Skill, Listening Skill, Dictation, Phonic Drill, Story Narration, Hints Development , Communication Skill, Group Project and Activities ,handwriting , Practical Assessment ,Creative writing ,Dramatization etc.,<br/>
+                          <u>Mathematics</u>
+                          This comprises of Group Projects , Mental Arithmetic , Math Lab Activities, Home Assignments, Puzzles, Practical Assessments, etc.<br/>
+                          <u>Environmental Studies / Science:</u>
+                          Project work, Group Discussion , Quiz Scientific Aptitude, Simple Experiments, Diagrammatic representations, Identification of Specimens, Study of Inventions etc.<br/>
+                          <u>Social Science</u>
+                          Quiz , Mapping , Puzzles, Projects using Atlas, Time Line Chart,Chronology of Events , study of Inventors, Monuments , Social Reformers, Religious leaders and Great Emperors, national Leaders , Information about Current events, diagram , weather Report, Thematic Maps, Debate , Youth parliament, Enacting , etc.
+                          Under F.A, the above skills and knowledge of the students are assessed.<br/>
+		                  <br/><br/>
+                              
+                                 <u>HONOUR FOR OUTSTANDING STUDENTS</u>
+                                 The students who excel in academic, co-scholastic and extra curricular activities will be awarded with Gold Star , Silver Star and Scholar Badges.
+                                 CRITERIA FOR OVERALL TOPPER AND PHOTO TO APPEAR IN THE DIARY
+                                 A student who secures the highest average mark of the summative examinations of all three terms will be declared as Overall topper.
+		                         
+			            </p>
+                </div>
+			   <div id="admission-form" class="image4 box" class="active">
+			   <form name="myform">
+			        <table class="back-color">
+                       <h3>ADMISSION FORM</h3><br/>
+                         <tr>
+                            <td><b>NAME:</b></td>
+                            <td><input id="name" type="text box"   name="name" placeholder="enter the name"  required></br></br></td>
+						    <td><p id="demo"></p></td>
+							
+						 </tr>
+                         <tr>
+                             <td><b>FATHER'S NAME:</b></td>
+                             <td><input id="fathername" type="text box"  name="fathername" placeholder="enter fathers's name" required></br></br></td>
+							<td><p id="demo1"></p></td>						
+                         </tr>
+                         <tr>
+						 <tr>
+						    <td><b>EMAIL:</b></td>
+							<td><input id="email" type="text"  placeholder="email"></br></td>
+							<td><p id="demo2"></p></td>
+						</tr>	
+                              <td><b>CHOOSE THE STANDARD FOR ADMISSION:</b></td><td>
+                              <select>
+                                    <option>choose option</option>
+                                    <option value="cse">class 1</option>
+                                    <option value="ece">class 5</option>
+                                    <option value="eee">class 8</option>
+                                    <option value="mech">class 11</option>
+                              </select></br></br></td>
+                         </tr>
+                         <tr>
+                              <td><b>GENDER:</b></td>
+                              <td><input type="radio" id="male" name="male">male<br/></td>
+                              <td><input type="radio" id="female" name="female">female</br></br></td>
+                         </tr>
+						 <tr>
+						     <td><b>DATE:</b></td>
+						     <td><input type="text" id="datepicker" name="date"><br/><br/></td>
+						</tr> 
+						<tr>
+						     <td><b>TIME:</b></td>
+						     <td><input type="text"  id="timepicker" name="time"><br/><br/></td>
+						</tr> 
+                         <tr>
+                             <td><b>LANGUAGES KNOWN</b></label><br/></td>
+                             <td><input type="checkbox" id="hindi" name="hindi" value="hindi">HINDI<br/></td>
+                             <td><input type="checkbox" id="tamil" name="tamil" value="tamil">TAMIL<br/></td>
+                             <td><input type="checkbox" id="english" name="english" value="english">ENGLISH</br></br></td>
+                         </tr>
+                         <tr>
+                             <td for="address"><b>ADDRESS:</b></td>
+                             <td><textarea placeholder="enter the address" id="address" ></textarea></br></br></td>
+							 <td><p id="demo3"></p></td>
+                         </tr>
+                         <tr><td>
+                             <input type="submit" onclick="myFunction()"></td>
+                         </tr>
+                    </table>
+					</form>
+					</div>
+					<div id="courses-offered" class="image5 box" class="active">
+					<h2 color=yellow>COURSES OFFERED</h2>
+	                <span class="changecolor">
+		            <p><b>ACADEMICS & ACTIVITIES:
+                    SMARTCLASS:-</b>
+                    Smart Class is a solution designed to help teachers in meeting with the new challenges and developing students’ abilities and performance. 
+		            It helps the teachers to access multimedia content and information that can be used for teaching students more effectively. 
+		            It helps the teachers in expressing their views and ensures that every student understands and learns the concepts.
+		            A well designed module allows a student to visualise the concept much better than static images.
+		            </p>
+                   </span>
+			   </div>
+			   <div id="achievements" class="image3 box" class="active">
+			       <h1><b><u>OUR SCHOOL TOPPERS</b></u></h1>
+	               <ol class="fix-center">
+	               <li>SHREYA MUNDHRA	&nbsp  496	&nbsp 99.2%</li>
+	               <li>SARA SHARMA	&nbsp 485	&nbsp 97%</li>
+	               <li>NIDHI KRISHNAN	&nbsp 480 &nbsp	96%</li>
+	               <li>RAVANI UKTI L	 &nbsp 479 &nbsp	95.8%</li>
+	               <li>ANISHA SINGHAL	&nbsp 478 &nbsp	95.6%</li>
+                   <li>V SAI HARSHITHA	 &nbsp 469 &nbsp	93.8%</li>
+	               <li>SHRUTHI GANESAN &nbsp	469 &nbsp	93.8%</li>
+	               <li>SANDRA VARGHESE	&nbsp 466	&nbsp 93.2%</li>
+	               <li>S UDHAYA	&nbsp 466 &nbsp	93.2%</li>
+	               <li>ANKIT YADAV	&nbsp 465 &nbsp	93%</li>
+	               <li>C M PRATIBHA &nbsp	453	 &nbsp 90.6%</li>
+	               </ol><br/><br/>
+                   <b><u><span>SUBJECT TOPPERS</span></u></b><br/></br>
+	               <br/><br/>
+                  <ol><p>English	</p>
+	               <li>Shreya Mundhra	99%</li>
+	               <li>Physics	Mitakshi Maity	95%</li>
+	               <p>Chemistry</p>	
+		           <li>C M Pratibha	93%</li>
+  	               <p>Biology</p>
+		           <li>	Anisha T </li>
+                   <li>Shruthi Ganesan	96%</li>
+ 	               <p>Mathematics</p>
+                   <li>Anisha Singhal </li>
+		          </ol>
+		      </div>
+			  <div id="draggable" class="ui-widget-content selector" >
+                        <p>Drag me around</p>
+			      
+               </div>
+			   <span id="droppable" class="ui-widget-header">
+                        <p>Drop here</p>
+                   </span>
+			   
+			</div>
+			<footer>
+			    <center>&copy from school website</center>
+			</footer>	
+	     </body>
+</html>		 
